@@ -11,9 +11,9 @@ import mmap
 # Module Constants
 START_MESSAGE = "CLI Inspection Script"
 
-HASHFILE_DB = ["PWND.001", "PWND.002", "PWND.003", "PWND.004", "PWND.005", "PWND.006", "PWND.007", "PWND.008", "PWND.009"]
-HASHFILE_TO_CHECK = "HASHES.lst"
-OUTPUT_FILE = "hashes_found_in_db.lst"
+HASHFILE_DB = ["hashes.001", "hashes.002", "hashes.003", "hashes.004", "hashes.005", "hashes.006", "hashes.007"]
+HASHFILE_TO_CHECK = "hashes_only_sorted.lst"
+OUTPUT_FILE = "leaked_hashes.csv"
 
 
 # Module "Global" Variables
